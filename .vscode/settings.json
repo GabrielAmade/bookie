@@ -1,3 +1,11 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.wordWrap": "on",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
 }
