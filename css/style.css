@@ -21,14 +21,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     padding: 30px 10px;
     margin-top: 20px;
 }
+
 .logo {
     width: 61px;
 }
-
 
 .nav_links {
     list-style: none;
@@ -37,7 +36,6 @@ header {
 
 .nav_links a {
     font-size: 16px;
-    font-weight: 400;
     text-decoration: none;
     padding-top: 40px;
     margin: 40px 0 0 40px;
@@ -46,7 +44,6 @@ header {
 
 .nav_links a:hover{
     border-top: 2px solid #0065FC;
-    /* margin-top: -2px; */
     color: #0065FC
 }
 
@@ -541,8 +538,8 @@ footer {
 
 header { 
     flex-direction: column;
-    margin: 10px;
-    
+    margin: 10px; 
+    padding-bottom: 10px;
 }
 
 .nav_links {
@@ -564,7 +561,7 @@ header {
 /* Search */
 
 .search {
-    margin: 65px 20px 30px 20px;
+    margin: 0px 20px 30px 20px;
 }
 
 .search_input {
@@ -726,6 +723,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .activities h2 {
