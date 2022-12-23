@@ -283,6 +283,9 @@ header {
     padding-top: 16px;
     padding-left: 15px;
     line-height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .popular-card-text h4 {
@@ -295,8 +298,9 @@ header {
 }
 
 .popular-stars {
-    margin-top: 28px;
+    margin-bottom: 5px;
 }
+
 
 
 /* Activities */
@@ -475,15 +479,6 @@ header {
     font-size: 13px;
     margin-top: 7px;
 }
-
-.p-stars1 {
-    margin-top: 29px;
-}
-
-.p-stars2 {
-    margin-top: 48px;
-}
-
 
 /* Activities */
 
